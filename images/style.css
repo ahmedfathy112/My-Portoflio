@@ -1089,8 +1089,9 @@ body {
     width:350px;
   }
   .contact-content .form-img svg {
-    width: 350px;
-    right: 20px;
+    width: 295px;
+    right: -15px;
+    height: 313px;
   }
   .contact-content .form-img img {
     width: 300px;
