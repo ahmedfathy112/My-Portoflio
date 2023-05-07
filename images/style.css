@@ -1061,10 +1061,10 @@ body {
     text-align: center;
   }
   .main-sec .main-image {
-    width: 400px;
+    width: 350px;
   }
   .main-sec .main-image img {
-    width: 100%;
+    width: 350px;
   }
   .about-main {
     flex-direction: column-reverse;
