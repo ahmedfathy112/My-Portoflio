@@ -1085,12 +1085,15 @@ body {
     justify-content: center;
     flex-direction: column;
   }
+  .contact-content .form-img {
+    width:350px;
+  }
   .contact-content .form-img svg {
-    width: 400px;
+    width: 350px;
     right: 20px;
   }
   .contact-content .form-img img {
-    width: 350px;
+    width: 300px;
   }
   .contact-content form textarea {
     padding: 20px 32px;
@@ -1107,8 +1110,8 @@ body {
   }
   .pup {
     height: 100vh;
-    width: 98%;
-    margin-left: 5px;
+    width: 96%;
+    margin-left: 15px;
     margin-top: 400px;
   }
   .servise-sec .svg2 {
