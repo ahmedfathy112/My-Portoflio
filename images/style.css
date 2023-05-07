@@ -1086,7 +1086,7 @@ body {
     flex-direction: column;
   }
   .contact-content .form-img svg {
-    width: 450px;
+    width: 400px;
     right: 20px;
   }
   .contact-content .form-img img {
@@ -1108,7 +1108,7 @@ body {
   .pup {
     height: 100vh;
     width: 98%;
-    margin-left: 0;
+    margin-left: 5px;
     margin-top: 400px;
   }
   .servise-sec .svg2 {
@@ -1123,6 +1123,8 @@ body {
   }
   .main-sec .content-main .cv {
     width:180px;
+    margin-right : 10px;
+    margin-left:10px;
   }
   .main-sec .content-main p {
     padding:30px;
