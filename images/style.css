@@ -262,6 +262,7 @@ body {
 .main-sec .content-main .main-sec-btn {
   display: flex;
   flex-direction: row;
+  justify-content : center;
 }
 .main-sec .main-image {
   width: 650px;
@@ -997,28 +998,9 @@ body {
   background-color: rgba(250, 247, 255, 0.5);
   border-radius: 20px;
   font-size: 20px;
-  position: relative;
   transition: 0.7s ease;
   color: #fff;
   font-weight: 600;
-}
-.contact-content form input::before {
-  content: "";
-  width: 50%;
-  height: 4px;
-  background-color: orange;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-.contact-content form input::after {
-  content: "";
-  width: 50%;
-  height: 4px;
-  background-color: orange;
-  position: absolute;
-  top: 0;
-  right: 0;
 }
 .contact-content form textarea {
   padding: 35px 30px;
@@ -1075,7 +1057,7 @@ body {
   .main-sec .content-main {
     margin-top: 100px;
     margin-bottom: 50px;
-    padding: 0 60px;
+    padding: 0 20px;
     text-align: center;
   }
   .main-sec .main-image {
@@ -1134,6 +1116,16 @@ body {
   }
   .servise-sec svg {
     right: 50%;
+  }
+  .contact-content form input  {
+    padding:10px ;
+    font-size :18px;
+  }
+  .main-sec .content-main .cv {
+    width:180px;
+  }
+  .main-sec .content-main p {
+    padding:30px;
   }
 }
 /* end responsive */
