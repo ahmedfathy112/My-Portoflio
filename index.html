@@ -484,6 +484,10 @@
         </div>
       </div>
     </section>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-E82FZDBSE0"
+    ></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
       var typed = new Typed("#auto-type", {
@@ -498,6 +502,15 @@
         backSpeed: 100,
         loop: true,
       });
+      // <!-- Google tag (gtag.js) -->
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-E82FZDBSE0");
     </script>
     <script src="main.js"></script>
   </body>
